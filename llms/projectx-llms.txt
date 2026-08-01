@@ -1,0 +1,25 @@
+# ProjectX (Infinity / InfinityOS)
+
+> ProjectX is a San Francisco-based Y Combinator (Spring 2026) startup building Infinity, a cloud operating system for AI agents. Infinity lets agents and humans orchestrate GPU workloads through a chat interface rather than traditional APIs, running multiple Windows and Linux applications (Blender, VS Code, DaVinci Resolve, Unreal Engine, Isaac Sim) simultaneously — each on independent compute and GPU inside one shared browser workspace with sub-minute cold starts. A public API, developer docs, status page, changelog, and blog are announced as "coming soon"; no programmatic API surface is published yet.
+
+## Product
+- [Infinity by ProjectX](https://www.projectx.cloud/): Cloud operating system for AI agents and humans to orchestrate GPU workloads.
+- [Try Infinity](https://infinity.projectx.cloud/): Sign up and launch a browser-based workspace.
+
+## Docs
+- [Documentation](https://infinity.projectx.cloud/docs): Product documentation (early).
+- [For Agents](https://infinity.projectx.cloud/for-agents): Agent-facing information (in progress).
+
+## Commercial
+- [Pricing](https://infinity.projectx.cloud/pricing): Plans and pricing.
+- [Contact](https://infinity.projectx.cloud/contact): Support and sales contact.
+
+## Coming soon
+- Public API, developer portal, status page, changelog, and blog are announced but not yet published.
+
+<!--
+provenance:
+generated: '2026-07-20'
+method: generated
+source: apis.yml + https://www.projectx.cloud/ (no provider-published /llms.txt found; SPA returns text/html for all paths)
+-->

@@ -1,7 +1,27 @@
 aid: projectx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/projectx.png
 name: Projectx
-description: Projectx is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ProjectX is a San Francisco-based Y Combinator (Spring 2026) startup building
+  Infinity (InfinityOS), a cloud operating system designed for AI agents. Infinity
+  lets agents and humans orchestrate GPU workloads through a chat interface rather
+  than traditional APIs, running multiple Windows and Linux applications — such as
+  Blender, VS Code, DaVinci Resolve, Unreal Engine, and Isaac Sim — simultaneously,
+  each on its own independent compute and GPU inside a single shared browser-based
+  workspace with sub-minute cold starts. A public API, developer docs, status page,
+  changelog, and blog are announced as coming soon; no programmatic API surface is
+  published yet.
 url: https://raw.githubusercontent.com/api-evangelist/projectx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cloud
+- Operating System
+- AI Agents
+- GPU
+- Compute
+- Cloud Computing
+- Infrastructure
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/projectx-domain-security.yml
+- type: Website
+  url: https://www.projectx.cloud/
+- type: Documentation
+  url: https://infinity.projectx.cloud/docs
+- type: Pricing
+  url: https://infinity.projectx.cloud/pricing
+- type: Support
+  url: https://infinity.projectx.cloud/contact
+- type: SignUp
+  url: https://infinity.projectx.cloud/
+- type: LLMsTxt
+  url: llms/projectx-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
