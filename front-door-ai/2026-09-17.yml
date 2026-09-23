@@ -1,0 +1,29 @@
+# Front Door AI Index — projectx — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: projectx
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.projectx.cloud
+  final_host: projectx.cloud
+  ownership: own
+  owner: projectx
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 11.76
+  words: 510
+  tiers:
+    agentic: 1
+    core: 4
+    model: 1
+  ambiguous: 7
+  top_terms:
+    agent: 7
+    AI: 3
+    AI agent: 1
+    Claude: 1
+    ML: 1
